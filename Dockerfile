@@ -18,7 +18,7 @@ RUN /resources/build && rm -rf /resources
 
 WORKDIR /data
 
-ENTRYPOINT "/bin/bash"
+ENTRYPOINT ["/root/.yarn/bin/yarn"]
 
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="yarn" \
