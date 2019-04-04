@@ -1,0 +1,12 @@
+#!/bin/sh
+
+apk add --no-cache \
+  nodejs=${NODEJS_VERSION} \
+  curl=${CURL_VERSION} \
+  gnupg=${GNUPG_VERSION} \
+  bash="${BASH_VERSION}"
+
+touch ${HOME}/.bashrc
+
+curl -o /resources/install.sh -L https://yarnpkg.com/install.sh
+sh /resources/install.sh --version "${YARN_VERSION}"
