@@ -4,7 +4,7 @@ VOLUME /data
 
 ENV YARN_VERSION="1.22.10-r0" \
     NODEJS_VERSION="14.17.4-r0" \
-    CURL_VERSION="7.64.0-r1" \
+    CURL_VERSION="7.78.0-r0" \
     GNUPG_VERSION="2.2.12-r0" \
     BASH_VERSION="4.4.19-r1"
 
