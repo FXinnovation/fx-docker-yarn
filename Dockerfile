@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.14.1
 
 VOLUME /data
 
@@ -23,7 +23,7 @@ ENTRYPOINT ["/root/.yarn/bin/yarn"]
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="yarn" \
       "org.label-schema.base-image.name"="docker.io/library/alpine" \
-      "org.label-schema.base-image.version"="3.9" \
+      "org.label-schema.base-image.version"="3.14.1" \
       "org.label-schema.description"="Yarn in a container" \
       "org.label-schema.url"="https://yarnpkg.com" \
       "org.label-schema.vcs-url"="https://scm.dazzlingwrench.fxinnovation.com/fxinnovation-public/docker-yarn" \
